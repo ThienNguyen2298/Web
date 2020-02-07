@@ -12,6 +12,7 @@ namespace Web.Models
         public string phone { get; set; }
         public Gender? gender { get; set; }
         public string address { get; set; }
+        public string avatar { get; set; }
         public string usrname { get; set; }
         public string password { get; set; }
         public int status { get; set; }
