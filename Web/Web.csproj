@@ -370,6 +370,7 @@
     <Content Include="client-side\images\about_1.jpg" />
     <Content Include="client-side\images\about_2.jpg" />
     <Content Include="client-side\images\about_3.jpg" />
+    <Content Include="client-side\images\banner.jpg" />
     <Content Include="client-side\images\banner_1.jpg" />
     <Content Include="client-side\images\blog_1.jpg" />
     <Content Include="client-side\images\blog_2.jpg" />
@@ -398,6 +399,7 @@
     <Content Include="client-side\images\event_1.jpg" />
     <Content Include="client-side\images\event_2.jpg" />
     <Content Include="client-side\images\event_3.jpg" />
+    <Content Include="client-side\images\fb.png" />
     <Content Include="client-side\images\footer_background.png" />
     <Content Include="client-side\images\gallery_1.jpg" />
     <Content Include="client-side\images\gallery_1_large.jpg" />
@@ -411,6 +413,7 @@
     <Content Include="client-side\images\gallery_5_large.jpg" />
     <Content Include="client-side\images\gallery_6.jpg" />
     <Content Include="client-side\images\gallery_6_large.jpg" />
+    <Content Include="client-side\images\gp.png" />
     <Content Include="client-side\images\home_slider_1.jpg" />
     <Content Include="client-side\images\icon_1.png" />
     <Content Include="client-side\images\icon_2.png" />
@@ -441,6 +444,7 @@
     <Content Include="client-side\images\team_3.jpg" />
     <Content Include="client-side\images\team_4.jpg" />
     <Content Include="client-side\images\team_background.jpg" />
+    <Content Include="client-side\images\tw.png" />
     <Content Include="client-side\images\video.jpg" />
     <Content Include="client-side\images\video_play.png" />
     <Content Include="client-side\js\about.js" />
@@ -493,6 +497,7 @@
     <Content Include="client-side\styles\courses.css" />
     <Content Include="client-side\styles\courses_responsive.css" />
     <Content Include="client-side\styles\course_responsive.css" />
+    <Content Include="client-side\styles\Login-Register.css" />
     <Content Include="client-side\styles\main_styles.css" />
     <Content Include="client-side\styles\responsive.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -505,7 +510,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-
     <Content Include="client-side\plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="client-side\plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="client-side\plugins\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
@@ -539,12 +543,10 @@
     <Content Include="client-side\plugins\font-awesome-4.7.0\scss\_screen-reader.scss" />
     <Content Include="client-side\plugins\font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="client-side\plugins\font-awesome-4.7.0\scss\_variables.scss" />
-
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\DashBoard\Index.cshtml" />
-
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -570,14 +572,12 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-
-    <Folder Include="client-side\scripts\" />
-
     <Folder Include="Areas\Admin\Data\" />
-
+    <Folder Include="client-side\scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
